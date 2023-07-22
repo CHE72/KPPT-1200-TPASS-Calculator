@@ -230,7 +230,7 @@ void main()  // 定義主程式區塊
 		tpbus_full_times = tpbus(tpbus_full_fare);
 		tpbus_times = tpbus_half_times + tpbus_full_times;  // 計算用戶搭乘公車的總次數
 		tpbus_fare = tpbus_half_times * tpbus_half_fare + tpbus_full_times * tpbus_full_fare;  // 計算用戶搭乘公車的總票價
-		printf("本月一共搭乘 %d 次 大臺北地區公車，花費 %d 元\n\n", tpbus_times,tpbus_times);  // 列印使用者搭乘公車的總次數與總票價
+		printf("本月一共搭乘 %d 次 大臺北地區公車，花費 %d 元\n\n", tpbus_times,tpbus_fare);  // 列印使用者搭乘公車的總次數與總票價
 		goto input_mode;  // 跳到 輸入_模式選擇平臺 區塊
 	}
 	case 4:  // 模式4：臺灣鐵路
