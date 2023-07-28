@@ -26,15 +26,15 @@ Step 6: According to the program prompt, input "0" to get the final calculation 
 > Note: There are 2 little easter eggs hidden in this program waiting for you to discover.  
 
 ## 錯誤修復 (Bug Fixes)
-修復：在「大臺北地區公車」的結果顯示中，會將公車總搭乘票價誤植為公車總搭乘次數。
+修復：在「大臺北地區公車」的結果顯示中，會將公車總搭乘票價誤植為公車總搭乘次數。  
 改進：在「讀我檔案」中的段落格式部分英文用字遣詞。
 
-Fixed: In the result display of "Taipei Metropolitan Area Bus", the total bus fare will be mistakenly planted as the total number of bus rides.
+Fixed: In the result display of "Taipei Metropolitan Area Bus", the total bus fare will be mistakenly planted as the total number of bus rides.  
 Improved: Some paragraph format and English wording in "Readme.md".
 
 ## 未來功能 (Future Features)
-我們預計會在 V1.1 時添加 判斷輸入金額 合理性的程式。 
+我們預計會在 V1.1 時添加 判斷輸入金額 合理性的程式。   
 我們預計會在 V2 時添加英文版本程式。
 
-We expect to add a program block for judging whether the dollars that user inputs is normal in V1.1.
+We expect to add a program block for judging whether the dollars that user inputs is normal in V1.1.  
 We expect to add an English version of the program in V2.
