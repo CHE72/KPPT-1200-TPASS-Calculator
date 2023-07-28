@@ -23,7 +23,7 @@ Step 3: According to the program prompts, enter the amount and the corresponding
 Step 4: If the input of this function is completed, you can enter "0 times" or "0 dollars" to return to the function selection.
 Step 5: Continue to follow the program prompts and input the content of other functions.
 Step 6: According to the program prompt, input "0" to get the final calculation result.
-> Note: There are 2 little easter eggs hidden in this program waiting for you to discover.
+> Notice: There are 2 little easter eggs hidden in this program waiting for you to discover.
 
 ## 已知問題 (Known Issues)
 在「大臺北地區公車」的結果顯示，會將公車總搭乘票價誤植為公車總搭乘次數，但是並不會影響最終計算結果（計算結果依然正確，只是中間過程顯示有誤），預計將於 V1.0 穩定版中修正。
