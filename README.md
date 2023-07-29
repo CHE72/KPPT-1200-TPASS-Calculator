@@ -39,11 +39,11 @@ Improved: The input in "Taipei MRT" is changed to a for loop, which effectively 
 Fixed: In the result display of "Taipei Metropolitan Area Bus", the total bus fare will be mistakenly planted as the total number of bus rides.  
 
 ## 已知問題 (Known Issues)
-錯誤：
+錯誤：  
 故障：
 
-Bugs / Errors:
-Broken
+Bugs / Errors:  
+Broken:
 
 ## 未來功能 (Future Features)
 我們預計會在 V1.1 時添加 判斷輸入金額 合理性的程式。   
