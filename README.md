@@ -25,15 +25,14 @@ Step 5: Continue to follow the program prompts and input the content of other fu
 Step 6: According to the program prompt, input "0" to get the final calculation result.  
 > Note: There are 2 little easter eggs hidden in this program waiting for you to discover.  
 
-## 新增功能 (New Features)
-新增：
-
-Added:
-
-## 錯誤修復 (Bug Fixes)
+## 新增 更新 改進 修復 (New Features, Updates, Improvement, Fixed Bugs)
+新增：  
+更新：  
+改進：在「讀我檔案」中的段落格式部分英文用字遣詞。  
 修復：在「大臺北地區公車」的結果顯示中，會將公車總搭乘票價誤植為公車總搭乘次數。  
-改進：在「讀我檔案」中的段落格式部分英文用字遣詞。
 
+Added:  
+Updated:  
 Fixed: In the result display of "Taipei Metropolitan Area Bus", the total bus fare will be mistakenly planted as the total number of bus rides.  
 Improved: Some paragraph format and English wording in "Readme.md".
 
