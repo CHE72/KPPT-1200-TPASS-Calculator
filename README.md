@@ -19,10 +19,10 @@ Welcome to use the "KPPT 1200 TPASS Calculator" made by CHE_72 ZStudio in C lang
 
 Step 1: Follow the program prompts and enter your identity (1: ordinary card, 2: student card).  
 Step 2: Follow the program prompts and select the function (1: Taipei Metro (MRT), 2: New Taipei Metro (MRT) & LRT, 3:Taipei Metropolitan Area Buses, 4: Taiwan Railways (TRA), 5: Taoyuan Metro (MRT), 6: Taoyuan / Keelung Buses, 7: Intercity Buses).  
-Step 3: According to the program prompts, enter the amount and the corresponding number of times.  
+Step 3: Follow the program prompts, enter the amount and the corresponding number of times.  
 Step 4: If the input of this function is completed, you can enter "0 (which 0 times or 0 dollars) " to return to the function selection.  
 Step 5: Continue to follow the program prompts and input the content of other transportation.  
-Step 6: Back to the function selection and input "0" (according to the program prompt) to get the final calculation result.  
+Step 6: Back to the function selection, follow the program prompt, and input "0" to get the final calculation result.  
 > Note: There are 2 little easter eggs hidden in this program waiting for you to discover.  
 
 ## V1.1 新增 更新 改進 修復 (New Features, Updates, Improvements, Fixed Bugs in V1.1)
