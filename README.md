@@ -25,7 +25,7 @@ Step 5: Continue to follow the program prompts and input the content of other fu
 Step 6: According to the program prompt, input "0" to get the final calculation result.  
 > Note: There are 2 little easter eggs hidden in this program waiting for you to discover.  
 
-## 新增 更新 改進 修復 (New Features, Updates, Improvement, Fixed Bugs)
+## V1.1 新增 更新 改進 修復 (New Features, Updates, Improvement, Fixed Bugs in V1.1)
 新增：  
 更新：  
 改進：在「讀我檔案」中的段落格式部分英文用字遣詞。  
