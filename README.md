@@ -2,10 +2,10 @@
 ## KPPT 1200 TPASS Calculator ( C Language ) Made by CHE_72 ZStudio
 
 ## 程式介紹 (Description)
-歡迎使用由 CHE_72 ZStudio 使用 C 語言製作而成的「基北北桃1200都會通定期票計算程式 」，本程式可以協助您判斷是否購買由 中華民國（臺澎金馬） 於 民國112年 推出的「TPASS行政院通勤月票（基北北桃）」，協助您省下在 基北北桃 區域通勤的花費。
+歡迎使用由 CHE_72 ZStudio 使用 C 語言製作而成的「基北北桃1200都會通定期票計算程式 」，本程式可以協助您判斷是否購買由 中華民國政府（臺澎金馬） 於 民國112年 推出的「TPASS行政院通勤月票（基北北桃）」，協助您省下在 基北北桃 區域通勤的花費。
 >  本說明文件所有英文內容皆由 Google 翻譯後修改調整而來，造成任何困惑與不便，敬請見諒。
 
-Welcome to use the "KPPT 1200 TPASS Calculator" made by CHE_72 ZStudio in C language. This program can help you judge whether to buy TPASS, which was launched by the government of the Republic of China (Taiwan, Penghu, Kinmen, Matsu) in 112 years of R.O.C. It can helps you save commuting costs in Keelung, Taipei, New Taipei, Taoyuan.
+Welcome to use the "KPPT 1200 TPASS Calculator" made by CHE_72 ZStudio in C language. This program can help you judge whether to buy TPASS ( also called Megacity Pass ), which was launched by the government of the Republic of China (Taiwan, Penghu, Kinmen, Matsu) in 112 years of R.O.C. Both TPASS and our awesome program can helps you save commuting costs in Keelung, Taipei, New Taipei, Taoyuan.
 >  All texts are translated using Google Translate, sorry for any confusion and inconvenience.
 
 ## 使用說明 (Instructions)
@@ -18,11 +18,11 @@ Welcome to use the "KPPT 1200 TPASS Calculator" made by CHE_72 ZStudio in C lang
 > 注意：此程式中隱藏了 2 個小彩蛋等待您發現。
 
 Step 1: Follow the program prompts and enter your identity (1: ordinary card, 2: student card).  
-Step 2: Follow the program prompts and select the function (1: Taipei Metro (MRT), 2: New Taipei Metro (MRT) / LRT, 3:Taipei Metropolitan Area Bus, 4: Taiwan Railway, 5: Taoyuan Metro (MRT), 6: Taoyuan / Keelung Bus, 7: Intercity Bus).  
+Step 2: Follow the program prompts and select the function (1: Taipei Metro (MRT), 2: New Taipei Metro (MRT) & LRT, 3:Taipei Metropolitan Area Buses, 4: Taiwan Railway (TRA), 5: Taoyuan Metro (MRT), 6: Taoyuan / Keelung Buses, 7: Intercity Buses).  
 Step 3: According to the program prompts, enter the amount and the corresponding number of times.  
-Step 4: If the input of this function is completed, you can enter "0 times" or "0 dollars" to return to the function selection.  
-Step 5: Continue to follow the program prompts and input the content of other functions.  
-Step 6: According to the program prompt, input "0" to get the final calculation result.  
+Step 4: If the input of this function is completed, you can enter "0 (which 0 times or 0 dollars) " to return to the function selection.  
+Step 5: Continue to follow the program prompts and input the content of other transportation.  
+Step 6: Back to the function selection and input "0" (according to the program prompt) to get the final calculation result.  
 > Note: There are 2 little easter eggs hidden in this program waiting for you to discover.  
 
 ## V1.1 新增 更新 改進 修復 (New Features, Updates, Improvements, Fixed Bugs in V1.1)
