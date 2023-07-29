@@ -29,12 +29,21 @@ Step 6: According to the program prompt, input "0" to get the final calculation 
 新增：  
 更新：  
 改進：在「讀我檔案」中的段落格式部分英文用字遣詞。  
+改進：在「臺北捷運」中的輸入改用 for 迴圈進行，有效減少資源占用。  
 修復：在「大臺北地區公車」的結果顯示中，會將公車總搭乘票價誤植為公車總搭乘次數。  
 
 Added:  
 Updated:  
+Improved: Some paragraph format and English wording in "Readme.md".  
+Improved: The input in "Taipei MRT" is changed to a for loop, which effectively reduces resource consumption.  
 Fixed: In the result display of "Taipei Metropolitan Area Bus", the total bus fare will be mistakenly planted as the total number of bus rides.  
-Improved: Some paragraph format and English wording in "Readme.md".
+
+## 已知問題 (Known Issues)
+錯誤：
+故障：
+
+Bugs / Errors:
+Broken
 
 ## 未來功能 (Future Features)
 我們預計會在 V1.1 時添加 判斷輸入金額 合理性的程式。   
