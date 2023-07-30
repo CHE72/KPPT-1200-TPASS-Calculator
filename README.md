@@ -28,14 +28,16 @@ Step 6: Back to the function selection, follow the program prompt, and input "0"
 ## V1.1 新增 更新 改進 修復 (New Features, Updates, Improvements, Fixed Bugs in V1.1)
 新增：  
 更新：  
-改進：在「讀我檔案」中的段落格式部分英文用字遣詞。  
-改進：在「臺北捷運」中的輸入改用 for 迴圈進行，有效減少資源占用。  
-修復：在「大臺北地區公車」的結果顯示中，會將公車總搭乘票價誤植為公車總搭乘次數。  
+V1.10 改進：在「讀我檔案」中的段落格式部分英文用字遣詞。  
+V1.12 改進：在「臺北捷運」中的輸入改用 for 迴圈進行，有效減少資源占用。  
+V1.13 改進：使用「函式原型宣告」，將自訂函式放置於 main() 函式之後，方便閱讀及維護。  
+V1.10 修復：在「大臺北地區公車」的結果顯示中，會將公車總搭乘票價誤植為公車總搭乘次數。  
 
 Added:  
 Updated:  
 Improved: Some paragraph format and English wording in "Readme.md".  
 Improved: The input in "Taipei MRT" is changed to a for loop, which effectively reduces resource consumption.  
+Improved: Use "Function Prototype Declaration" to place custom functions after the main() function for easy reading and maintenance.
 Fixed: In the result display of "Taipei Metropolitan Area Bus", the total bus fare will be mistakenly planted as the total number of bus rides.  
 
 ## 已知問題 (Known Issues)
