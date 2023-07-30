@@ -36,9 +36,9 @@ V1.10 修復：在「大臺北地區公車」的結果顯示中，會將公車�
 Added:  
 Updated:  
 Improved: Some paragraph format and English wording in "Readme.md".  
-Improved: The input in "Taipei MRT" is changed to a for loop, which effectively reduces resource consumption.  
+Improved: The input fuction block in "Taipei MRT" is changed to a "for loop", which effectively reduces resource consumption.  
 Improved: Use "Function Prototype Declaration" to place custom functions after the main() function for easy reading and maintenance.
-Fixed: In the result display of "Taipei Metropolitan Area Bus", the total bus fare will be mistakenly planted as the total number of bus rides.  
+Fixed: In the result display of "Taipei Metropolitan Area Buses", the total bus fare will be mistakenly planted as the total number of bus rides.  
 
 ## 已知問題 (Known Issues)
 錯誤：  
