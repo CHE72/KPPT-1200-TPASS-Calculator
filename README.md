@@ -12,9 +12,9 @@ Welcome to use the "KPPT 1200 TPASS Calculator" made by CHE_72 ZStudio in C lang
 第一步：按照程式提示，輸入身分（1：普通卡、2：學生卡）。  
 第二步：按照程式提示，選擇功能（1：臺北捷運、2：新北捷運/輕軌、3：大臺北地區公車、4：臺灣鐵路、5：桃園捷運、6：桃園/基隆公車、7：公路客運）。  
 第三步：按照程式提示，輸入金額與對應的次數。  
-第四步：若此功能輸入完成，可輸入「0（次 / 元）」返回功能選擇。  
+第四步：若此功能輸入完成，可輸入「0（次 / 元）」返回模式選擇平臺。  
 第五步：繼續按照程式提示，輸入其他功能的內容。  
-第六步：按照程式提示，輸入「0」以獲得最終計算結果。  
+第六步：返回模式選擇平臺，按照程式提示，輸入「0」以獲得最終計算結果。  
 > 注意：此程式中隱藏了 2 個小彩蛋等待您發現。
 
 Step 1: Follow the program prompts and enter your identity (1: ordinary card, 2: student card).  
@@ -26,18 +26,18 @@ Step 6: Back to the function selection, follow the program prompt, and input "0"
 > Note: There are 2 little easter eggs hidden in this program waiting for you to discover.  
 
 ## V1.1 新增 更新 改進 修復 (New Features, Updates, Improvements, Fixed Bugs in V1.1)
-新增：  
+V1.14 新增：printf 函式中首次使用「ANSI 轉義碼」，使得程式的輸出結果能夠顯示出不同的顏色，方便使用者閱讀。  
 更新：  
 V1.10 改進：在「讀我檔案」中的段落格式部分英文用字遣詞。  
 V1.12 改進：在「臺北捷運」中的輸入改用 for 迴圈進行，有效減少資源占用。  
 V1.13 改進：使用「函式原型宣告」，將自訂函式放置於 main() 函式之後，方便閱讀及維護。  
 V1.10 修復：在「大臺北地區公車」的結果顯示中，會將公車總搭乘票價誤植為公車總搭乘次數。  
 
-Added:  
+Added:The "ANSI escape code" is used for the first time in the printf function, so that the output of the program can be displayed in different colors, which is convenient for users to read.  
 Updated:  
 Improved: Some paragraph format and English wording in "Readme.md".  
 Improved: The input fuction block in "Taipei MRT" is changed to a "for loop", which effectively reduces resource consumption.  
-Improved: Use "Function Prototype Declaration" to place custom functions after the main() function for easy reading and maintenance.
+Improved: Use "Function Prototype Declaration" to place custom functions after the main() function for easy reading and maintenance.  
 Fixed: In the result display of "Taipei Metropolitan Area Buses", the total bus fare will be mistakenly planted as the total number of bus rides.  
 
 ## 已知問題 (Known Issues)
