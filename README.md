@@ -33,7 +33,7 @@ V1.12 改進：在「臺北捷運」中的輸入改用 for 迴圈進行，有效
 V1.13 改進：使用「函式原型宣告」，將自訂函式放置於 main() 函式之後，方便閱讀及維護。  
 V1.10 修復：在「大臺北地區公車」的結果顯示中，會將公車總搭乘票價誤植為公車總搭乘次數。  
 
-Added:The "ANSI escape code" is used for the first time in the printf function, so that the output of the program can be displayed in different colors, which is convenient for users to read.  
+Added: The "ANSI escape code" is used for the first time in the printf function, so that the output of the program can be displayed in different colors, which is convenient for users to read.  
 Updated:  
 Improved: Some paragraph format and English wording in "Readme.md".  
 Improved: The input fuction block in "Taipei MRT" is changed to a "for loop", which effectively reduces resource consumption.  
