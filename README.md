@@ -25,7 +25,7 @@ Step 5: Continue to follow the program prompts and input the content of other tr
 Step 6: Back to the function selection, follow the program prompt, and input "0" to get the final calculation result.  
 > Note: There are 2 little easter eggs hidden in this program waiting for you to discover.  
 
-## V1.1 新增 更新 改進 修復 (New Features, Updates, Improvements, Fixed Bugs in V1.1)
+## V1.1X 新增 更新 改進 修復 (New Features, Updates, Improvements, Fixed Bugs in V1.1X)
 V1.14 新增：printf 函式中首次使用「ANSI 轉義碼」，使得程式的輸出結果能夠顯示出不同的顏色，方便使用者閱讀。  
 V1.18 新增：增加了作者與工作室介紹，讓人們了解我們製作此程式的目的。
 更新：  
@@ -56,8 +56,8 @@ Bugs / Errors:
 Broken:
 
 ## 未來功能 (Future Features)
-我們預計會在 V1.2 時增加開源許可與版權宣告。   
-我們預計會在 V2 時添加英文版本程式。
+我們預計會在 V1.2X 時增加開源許可與版權宣告。   
+我們預計會在 V2.0X 時添加英文版本程式。
 
-We expect to add open source licenses and copyright notices in V1.2.    
-We expect to add an English version of the program in V2.
+We expect to add open source licenses and copyright notices in V1.2X.    
+We expect to add an English version of the program in V2.0X
