@@ -58,8 +58,8 @@ Bugs / Errors: In the "Identity Input Platform", since the content has not been 
 Broken:
 
 ## 未來功能 (Future Features)
-我們預計會在 V1.2X 時增加開源許可與版權宣告、作者與工作室介紹。   
+我們預計會在 V1.2X 時增加開源許可與版權宣告、作者與工作室介紹，並對「身分輸入平臺」的3、4選項進行簡短的未來功能介紹。   
 我們預計會在 V2.0X 時添加英文版本程式。
 
-We expect to add open source licenses, copyright notices, author and studio introduction in V1.2X.    
+We expect to add open source licenses and copyright announcements, author and studio introductions in V1.2X, and give a brief introduction to the future functions of options 3 and 4 of the "Identity Input Platform".  
 We expect to add an English version of the program in V2.0X
