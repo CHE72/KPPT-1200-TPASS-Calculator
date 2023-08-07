@@ -26,16 +26,17 @@ Step 6: Back to the function selection, follow the program prompt, and input "0"
 > Note: There are 2 little easter eggs hidden in this program waiting for you to discover.  
 
 ## V1.1X 新增 更新 改進 修復 (New Features, Updates, Improvements, Fixed Bugs in V1.1X)
-V1.14 新增：printf 函式中首次使用「ANSI 轉義碼」，使得程式的輸出結果能夠顯示出不同的顏色，方便使用者閱讀。  
+V1.130 新增：printf 函式中首次使用「ANSI 轉義碼」，使得程式的輸出結果能夠顯示出不同的顏色，方便使用者閱讀。  
+V1.151 新增：程式初始階段的英文簡介與英文選項，方便外國人使用。  
 更新：  
-V1.11 改進：在「讀我檔案」中的段落格式部分英文用字遣詞。  
-V1.12 改進：在「臺北捷運」中的輸入改用 for 迴圈進行，有效減少資源占用。  
-V1.13 改進：使用「函式原型宣告」，將自訂函式放置於 main() 函式之後，方便閱讀及維護。  
-V1.15 改進：在「大臺北地區公車」的描述輸出中，新增對於多段票的描述，並調整其他程式輸出的語句。  
-V1.16 改進：在「輸出計算結果」的區塊中，調整了顯示方式，現在可以在最終計算時看到各交通工具的花費金額與次數。    
-V1.10 修復：在「大臺北地區公車」的結果顯示中，會將公車總搭乘票價誤植為公車總搭乘次數的問題。  
-V1.17 修復：多次輸入「大臺北地區公車」的數據資料時，因為沒有加總到之前的紀錄，會導致先前輸入過的資料被消失的問題。  
-V1.18 修復：在「臺北捷運」中的常客優惠計算錯誤問題。
+V1.101 改進：在「讀我檔案」中的段落格式部分英文用字遣詞。  
+V1.110 改進：在「臺北捷運」中的輸入改用 for 迴圈進行，有效減少資源占用。  
+V1.120 改進：使用「函式原型宣告」，將自訂函式放置於 main() 函式之後，方便閱讀及維護。  
+V1.131 改進：在「大臺北地區公車」的描述輸出中，新增對於多段票的描述，並調整其他程式輸出的語句。  
+V1.132 改進：在「輸出計算結果」的區塊中，調整了顯示方式，現在可以在最終計算時看到各交通工具的花費金額與次數。    
+V1.100 修復：在「大臺北地區公車」的結果顯示中，會將公車總搭乘票價誤植為公車總搭乘次數的問題。  
+V1.140 修復：多次輸入「大臺北地區公車」的數據資料時，因為沒有加總到之前的紀錄，會導致先前輸入過的資料被消失的問題。  
+V1.150 修復：在「臺北捷運」中的常客優惠計算錯誤問題。
 
 Added: The "ANSI escape code" is used for the first time in the printf function, so that the output of the program can be displayed in different colors, which is convenient for users to read.  
 Added: Added author and studio introduction to let people understand our purpose of making this program.  
