@@ -32,6 +32,7 @@ V1.11 改進：在「讀我檔案」中的段落格式部分英文用字遣詞�
 V1.12 改進：在「臺北捷運」中的輸入改用 for 迴圈進行，有效減少資源占用。  
 V1.13 改進：使用「函式原型宣告」，將自訂函式放置於 main() 函式之後，方便閱讀及維護。  
 V1.15 改進：在「大臺北地區公車」的描述輸出中，新增對於多段票的描述，並調整其他程式輸出的語句。  
+V1.16 改進：在「輸出計算結果」的區塊中，調整了顯示方式，現在可以在最終計算時看到各交通工具的花費金額與次數。  
 V1.10 修復：在「大臺北地區公車」的結果顯示中，會將公車總搭乘票價誤植為公車總搭乘次數。  
 
 Added: The "ANSI escape code" is used for the first time in the printf function, so that the output of the program can be displayed in different colors, which is convenient for users to read.  
@@ -40,6 +41,7 @@ Improved: Some paragraph format and English wording in "Readme.md".
 Improved: The input fuction block in "Taipei MRT" is changed to a "for loop", which effectively reduces resource consumption.  
 Improved: Use "Function Prototype Declaration" to place custom functions after the main() function for easy reading and maintenance.  
 Improved: In the description output of "Taipei Metropolitan Area Buses", add a description for multi-section tickets, and adjust the output sentences in other places.  
+Improved: In the "Output Calculation Result" block, the display method has been adjusted, and now you can see the cost and times of each transportation in the final calculation.  
 Fixed: In the result display of "Taipei Metropolitan Area Buses", the total bus fare will be mistakenly planted as the total number of bus rides.  
 
 ## 已知問題 (Known Issues)
