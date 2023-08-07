@@ -27,15 +27,18 @@ Step 6: Back to the function selection, follow the program prompt, and input "0"
 
 ## V1.1 新增 更新 改進 修復 (New Features, Updates, Improvements, Fixed Bugs in V1.1)
 V1.14 新增：printf 函式中首次使用「ANSI 轉義碼」，使得程式的輸出結果能夠顯示出不同的顏色，方便使用者閱讀。  
+V1.18 新增：增加了作者與工作室介紹，讓人們了解我們製作此程式的目的。
 更新：  
 V1.11 改進：在「讀我檔案」中的段落格式部分英文用字遣詞。  
 V1.12 改進：在「臺北捷運」中的輸入改用 for 迴圈進行，有效減少資源占用。  
 V1.13 改進：使用「函式原型宣告」，將自訂函式放置於 main() 函式之後，方便閱讀及維護。  
 V1.15 改進：在「大臺北地區公車」的描述輸出中，新增對於多段票的描述，並調整其他程式輸出的語句。  
-V1.16 改進：在「輸出計算結果」的區塊中，調整了顯示方式，現在可以在最終計算時看到各交通工具的花費金額與次數。  
-V1.10 修復：在「大臺北地區公車」的結果顯示中，會將公車總搭乘票價誤植為公車總搭乘次數。  
+V1.16 改進：在「輸出計算結果」的區塊中，調整了顯示方式，現在可以在最終計算時看到各交通工具的花費金額與次數。    
+V1.10 修復：在「大臺北地區公車」的結果顯示中，會將公車總搭乘票價誤植為公車總搭乘次數的問題。  
+V1.17 修復：多次輸入「大臺北地區公車」的數據資料時，因為沒有加總到之前的紀錄，會導致先前輸入過的資料被消失的問題。  
 
 Added: The "ANSI escape code" is used for the first time in the printf function, so that the output of the program can be displayed in different colors, which is convenient for users to read.  
+Added: Added author and studio introduction to let people understand our purpose of making this program.  
 Updated:  
 Improved: Some paragraph format and English wording in "Readme.md".  
 Improved: The input fuction block in "Taipei MRT" is changed to a "for loop", which effectively reduces resource consumption.  
@@ -43,6 +46,7 @@ Improved: Use "Function Prototype Declaration" to place custom functions after t
 Improved: In the description output of "Taipei Metropolitan Area Buses", add a description for multi-section tickets, and adjust the output sentences in other places.  
 Improved: In the "Output Calculation Result" block, the display method has been adjusted, and now you can see the cost and times of each transportation in the final calculation.  
 Fixed: In the result display of "Taipei Metropolitan Area Buses", the total bus fare will be mistakenly planted as the total number of bus rides.  
+Fixed: When the data of "Taipei Metropolitan Area Buses" is input multiple times, the previous input data will be lost because the previous records are not summed up.  
 
 ## 已知問題 (Known Issues)
 錯誤：  
@@ -52,8 +56,8 @@ Bugs / Errors:
 Broken:
 
 ## 未來功能 (Future Features)
-我們預計會在 V1.1 時添加 判斷輸入金額 合理性的程式。   
+我們預計會在 V1.2 時增加開源許可與版權宣告。   
 我們預計會在 V2 時添加英文版本程式。
 
-We expect to add a program block for judging whether the dollars that user inputs is normal in V1.1.  
+We expect to add open source licenses and copyright notices in V1.2.    
 We expect to add an English version of the program in V2.
