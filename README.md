@@ -28,6 +28,7 @@ Step 6: Back to the function selection, follow the program prompt, and input "0"
 ## V1.1X 新增 更新 改進 修復 (New Features, Updates, Improvements, Fixed Bugs in V1.1X)
 V1.130 新增：printf 函式中首次使用「ANSI 轉義碼」，使得程式的輸出結果能夠顯示出不同的顏色，方便使用者閱讀。  
 V1.151 新增：在程式初始階段會顯示英文簡介與英文選項。  
+V1.152 新增：GNU通用公眾授權條款 第二版（官方英文版）
 更新：  
 V1.101 改進：在「讀我檔案」中的段落格式部分英文用字遣詞。  
 V1.110 改進：在「臺北捷運」中的輸入改用 for 迴圈進行，有效減少資源占用。  
@@ -40,6 +41,7 @@ V1.150 修復：在「臺北捷運」中的常客優惠計算錯誤問題。
 
 Added: The "ANSI escape code" is used for the first time in the printf function, so that the output of the program can be displayed in different colors, which is convenient for users to read.  
 Added: At the initial stage of the program, some English introduction and English options will be displayed.  
+Added: GNU General Public License version 2 (GPL-2.0) offical English version
 Updated:  
 Improved: Some paragraph format and English wording in "Readme.md".  
 Improved: The input fuction block in "Taipei MRT" is changed to a "for loop", which effectively reduces resource consumption.  
