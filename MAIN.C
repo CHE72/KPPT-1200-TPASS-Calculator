@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-const double ver = 1.153;  // 宣告全域浮點常數：程式版本號
+const double ver = 1.154;  // 宣告全域浮點常數：程式版本號
 int ID, mode;  // 宣告全域整數變數函數：使用者身分、模式選擇代碼
 int tpbus_half_times, tpbus_full_times, tpbus_half_fare, tpbus_full_fare;  
   // 宣告全域整數變數函數：大臺北公車半價次數、大臺北公車全價次數、大臺北公車半價價格、大臺北公車全價價格
