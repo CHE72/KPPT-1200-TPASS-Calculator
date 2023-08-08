@@ -3,6 +3,7 @@
 
 ## 程式介紹 (Description)
 歡迎使用由 CHE_72 ZStudio 使用 C 語言製作而成的「基北北桃1200都會通定期票計算程式 」，本程式可以協助您判斷是否購買由 中華民國政府（臺澎金馬） 於 民國112年 推出的「TPASS行政院通勤月票（基北北桃）」，協助您省下在 基北北桃 區域通勤的花費。
+>  注意：由於本程式使用 Microsoft Visual Studio 進行建置，因此請先安裝「Microsoft Visual C++ 可轉散發套件」後再開始運行本程式，以免出現 動態連結庫 缺失的錯誤。  
 >  本說明文件所有英文內容皆由 Google 翻譯後修改調整而來，造成任何困惑與不便，敬請見諒。
 
 Welcome to use the "KPPT 1200 TPASS Calculator" made by CHE_72 ZStudio in C language. This program can help you judge whether to buy TPASS ( also called Megacity Pass ), which was launched by the government of the Republic of China (Taiwan, Penghu, Kinmen, Matsu) in 112 years of R.O.C. Both TPASS(KPPT) and our awesome program can helps you save commuting costs in Keelung, Taipei, New Taipei, Taoyuan.
