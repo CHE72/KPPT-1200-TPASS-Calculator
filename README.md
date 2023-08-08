@@ -30,6 +30,7 @@ V1.130 新增：printf 函式中首次使用「ANSI 轉義碼」，使得程式�
 V1.151 新增：在程式初始階段會顯示英文簡介與英文選項。  
 V1.152 新增：GNU通用公眾授權條款 第二版（官方英文版）
 V1.153 新增：GNU通用公眾授權條款 第二版（非官方中文翻譯）
+V1.154 新增：判斷「桃園機場捷運」輸入金額合理性的程式。
 更新：  
 V1.101 改進：在「讀我檔案」中的段落格式部分英文用字遣詞。  
 V1.110 改進：在「臺北捷運」中的輸入改用 for 迴圈進行，有效減少資源占用。  
@@ -44,22 +45,23 @@ Added: The "ANSI escape code" is used for the first time in the printf function,
 Added: At the initial stage of the program, some English introduction and English options will be displayed.  
 Added: GNU General Public License version 2 (GPL-2.0) Offical English Version  
 Added: GNU General Public License version 2 (GPL-2.0) Unofficial Chinese Translation  
+Added: A program block which can judge whether the dollars that user inputs in "Taoyuan Metro (MRT)" is normal.
 Updated:  
 Improved: Some paragraph format and English wording in "Readme.md".  
-Improved: The input fuction block in "Taipei MRT" is changed to a "for loop", which effectively reduces resource consumption.  
+Improved: The input fuction block in "Taipei Metro (MRT)" is changed to a "for loop", which effectively reduces resource consumption.  
 Improved: Use "Function Prototype Declaration" to place custom functions after the main() function for easy reading and maintenance.  
 Improved: In the description output of "Taipei Metropolitan Area Buses", add a description for multi-section tickets, and adjust the output sentences in other places.  
 Improved: In the "Output Calculation Result" block, the display method has been adjusted, and now you can see the cost and times of each transportation in the final calculation.  
 Fixed: In the result display of "Taipei Metropolitan Area Buses", the total bus fare will be mistakenly planted as the total number of bus rides.  
 Fixed: When the data of "Taipei Metropolitan Area Buses" is input multiple times, the previous input data will be lost because the previous records are not summed up.  
-Fixed: Frequent Passenger Program discount calculation error in "Taipei MRT".
+Fixed: Frequent Passenger Program discount calculation error in "Taipei Metro (MRT)".
 
 
 ## 已知問題 (Known Issues)
-錯誤：在「身分輸入平臺」，由於內容尚未建置完全，因此3、4、5、6選項都沒有作用，會輸出錯誤訊息並直接退出程序。  
+錯誤：在「身分輸入平臺」，由於內容尚未建置完全，因此3、4、5、6選項都沒有作用，會輸出訊息並直接退出程序。  
 故障：  
 
-Bugs / Errors: In the "Identity Input Platform", since the content has not been fully constructed, options 3, 4, 5, and 6 have no effect, and an error message will be output and the program will exit directly.  
+Bugs / Errors: In the "Identity Input Platform", since the content has not been fully constructed, options 3, 4, 5, and 6 have no effect, and a message will be output and the program will exit directly.  
 Broken:
 
 ## 未來功能 (Future Features)
@@ -67,4 +69,4 @@ Broken:
 我們預計會在 V2.0X 時添加英文版本程式。
 
 We expect to add copyright announcements, author and studio introductions in V1.2X, and give a brief introduction to the future functions of options 3 and 4 of the "Identity Input Platform".  
-We expect to add an English version of the program in V2.0X
+We expect to add an English version of the program in V2.0X.
