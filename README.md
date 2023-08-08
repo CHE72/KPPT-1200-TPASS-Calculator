@@ -28,10 +28,9 @@ Step 6: Back to the function selection, follow the program prompt, and input "0"
 ## V1.1X 新增 更新 改進 修復 (New Features, Updates, Improvements, Fixed Bugs in V1.1X)
 V1.130 新增：printf 函式中首次使用「ANSI 轉義碼」，使得程式的輸出結果能夠顯示出不同的顏色，方便使用者閱讀。  
 V1.151 新增：在程式初始階段會顯示英文簡介與英文選項。  
-V1.152 新增：GNU通用公眾授權條款 第二版（官方英文版）
-V1.153 新增：GNU通用公眾授權條款 第二版（非官方中文翻譯）
-V1.154 新增：判斷「桃園機場捷運」輸入金額合理性的程式。
-更新：  
+V1.152 新增：GNU通用公眾授權條款 第二版（官方英文版）  
+V1.153 新增：GNU通用公眾授權條款 第二版（非官方中文翻譯）  
+V1.154 新增：判斷「桃園機場捷運」輸入金額合理性的程式。  
 V1.101 改進：在「讀我檔案」中的段落格式部分英文用字遣詞。  
 V1.110 改進：在「臺北捷運」中的輸入改用 for 迴圈進行，有效減少資源占用。  
 V1.120 改進：使用「函式原型宣告」，將自訂函式放置於 main() 函式之後，方便閱讀及維護。  
@@ -45,8 +44,7 @@ Added: The "ANSI escape code" is used for the first time in the printf function,
 Added: At the initial stage of the program, some English introduction and English options will be displayed.  
 Added: GNU General Public License version 2 (GPL-2.0) Offical English Version  
 Added: GNU General Public License version 2 (GPL-2.0) Unofficial Chinese Translation  
-Added: A program block which can judge whether the dollars that user inputs in "Taoyuan Metro (MRT)" is normal.
-Updated:  
+Added: A program block which can judge whether the dollars that user inputs in "Taoyuan Metro (MRT)" is normal.  
 Improved: Some paragraph format and English wording in "Readme.md".  
 Improved: The input fuction block in "Taipei Metro (MRT)" is changed to a "for loop", which effectively reduces resource consumption.  
 Improved: Use "Function Prototype Declaration" to place custom functions after the main() function for easy reading and maintenance.  
@@ -59,10 +57,8 @@ Fixed: Frequent Passenger Program discount calculation error in "Taipei Metro (M
 
 ## 已知問題 (Known Issues)
 錯誤：在「身分輸入平臺」，由於內容尚未建置完全，因此3、4、5、6選項都沒有作用，會輸出訊息並直接退出程序。  
-故障：  
 
 Bugs / Errors: In the "Identity Input Platform", since the content has not been fully constructed, options 3, 4, 5, and 6 have no effect, and a message will be output and the program will exit directly.  
-Broken:
 
 ## 未來功能 (Future Features)
 我們預計會在 V1.2X 時增加版權宣告、作者與工作室介紹，並對「身分輸入平臺」的3、4選項進行簡短的未來功能介紹。   
