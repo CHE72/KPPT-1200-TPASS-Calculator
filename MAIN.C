@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-const double ver = 1.152;  // 宣告全域浮點常數：程式版本號
+const double ver = 1.153;  // 宣告全域浮點常數：程式版本號
 int ID, mode;  // 宣告全域整數變數函數：使用者身分、模式選擇代碼
 int tpbus_half_times, tpbus_full_times, tpbus_half_fare, tpbus_full_fare;  
   // 宣告全域整數變數函數：大臺北公車半價次數、大臺北公車全價次數、大臺北公車半價價格、大臺北公車全價價格
@@ -42,8 +42,8 @@ void main()  // 定義主程式區塊
 
 	input_ID:  // 定義 輸入_身分選擇 區塊
 	printf("這裡是「語言暨身分選擇平臺」，請問您是用何種卡片或是要瀏覽哪些程式資訊？\n");  // 詢問使用者身分
-	printf("This is the \"Language and Identity Selection Platform\", what kind of card do you use or what program information do you wanna know ?\n");
-	printf("1：普通卡(中文)、2：學生卡(中文)、3：Adult Card (English)、4：Student Card (English)、\n7：開源許可與版權宣告(中文)、8：Open Source Licenses & Copyright(English)、9：完全退出程序 / Exit this Program --> ");  // 輸出可使用的選項
+	printf("This is the \"Language and Identity Selection Platform\", what kind of card do you use or what information of this program do you wanna know ?\n");
+	printf("1：普通卡(中文)、2：學生卡(中文)、3：Adult Card (English)、4：Student Card (English)、\n5：程式簡介與版權宣告(中文)、6：Description & Copyright(English)、7：開源許可(中文)、8：Open Source Licenses(English)、9：完全退出程序 / Exit this Program --> ");  // 輸出可使用的選項
 	scanf_s("%d", &ID);  //接收使用者輸入至 使用者身分 變數
 	switch (ID)  // 根據 使用者身分 變數判斷
 	{
@@ -61,20 +61,26 @@ void main()  // 定義主程式區塊
 		tpbus_half_fare = 6, tpbus_full_fare = 12;  // 定義 大臺北地區公車 半價與全價
 		break;  // 離開 switch
 	case 3:  // 身分3：Adult Card (English)
-		printf("\n\033[38;5;197mThe content has not been fully constructed.\a\n\n");  // 輸出程式退出訊息， \a 為 溢出字元 警告聲
-		pause_exit(EXIT_SUCCESS);  // 調用退出程序（程式正常退出）
+		printf("\n\033[38;5;197mThe content has not been fully constructed.\033[0m\a\n\n");  // 輸出程式退出訊息， \a 為 溢出字元 警告聲
+		goto stop_success;  // 跳到 輸出_成功結束 區塊
 	case 4:  // 身分4：Student Card (English)
-		printf("\n\033[38;5;197mThe content has not been fully constructed.\a\n\n");  // 輸出程式退出訊息， \a 為 溢出字元 警告聲
-		pause_exit(EXIT_SUCCESS);  // 調用退出程序（程式正常退出）
-	case 7:  // 身分7：開源許可與版權宣告(中文)
-		printf("\n\033[38;5;197mThe content has not been fully constructed.\a\n\n");  // 輸出程式退出訊息， \a 為 溢出字元 警告聲
-		pause_exit(EXIT_SUCCESS);  // 調用退出程序（程式正常退出）
-	case 8:  // 身分8：Open Source Licenses & Copyright(English)
+		printf("\n\033[38;5;197mThe content has not been fully constructed.\033[0m\a\n\n");  // 輸出程式退出訊息， \a 為 溢出字元 警告聲
+		goto stop_success;  // 跳到 輸出_成功結束 區塊
+	case 5:  // 身分5：程式簡介與版權宣告(中文)
+		printf("\n\033[38;5;197mThe content has not been fully constructed.\033[0m\a\n\n");  // 輸出程式退出訊息， \a 為 溢出字元 警告聲
+		goto stop_success;  // 跳到 輸出_成功結束 區塊
+	case 6:  // 身分6：Description & Copyright(English)
+		printf("\n\033[38;5;197mThe content has not been fully constructed.\033[0m\a\n\n");  // 輸出程式退出訊息， \a 為 溢出字元 警告聲
+		goto stop_success;  // 跳到 輸出_成功結束 區塊
+	case 7:  // 身分7：開源許可(中文)
+		zh_license();
+		goto input_ID;
+	case 8:  // 身分8：Open Source Licenses(English)
 		en_license();
 		goto input_ID;
 	case 9:  // 身分9：完全退出程序
-		printf("\n\033[38;5;197m收到您的要求，正在結束程序\a\n\n");  // 輸出程式退出訊息， \a 為 溢出字元 警告聲
-		pause_exit(EXIT_SUCCESS);  // 調用退出程序（程式正常退出）
+		printf("\n\033[38;5;197m收到您的要求，正在結束程序\033[0m\a\n\n");  // 輸出程式退出訊息， \a 為 溢出字元 警告聲
+		goto stop_success;  // 跳到 輸出_成功結束 區塊
 	default:  // 其他情況
 		printf("\n\033[38;5;197m輸入無效，程式即將結束\a\n");  // 輸出程式退出訊息， \a 為 溢出字元 警告聲
 		printf("\033[38;5;197mYour input is invalid, and the program will end soon.\a\n\n");
@@ -396,8 +402,8 @@ void main()  // 定義主程式區塊
 	}
 	case 9:  // 模式9：完全退出程序
 	{
-		printf("\n\033[38;5;197m收到您的要求，正在結束程序\a\n\n");  // 輸出程式退出訊息， \a 為 溢出字元 警告聲
-		pause_exit(EXIT_SUCCESS);  // 調用退出程序（程式正常退出）
+		printf("\n\033[38;5;197m收到您的要求，正在結束程序\033[0m\a\n\n");  // 輸出程式退出訊息， \a 為 溢出字元 警告聲
+		goto stop_success;  // 跳到 輸出_成功結束 區塊
 	}
 	default:  // 其他情況
 	{
@@ -486,9 +492,9 @@ void en_license()
 	printf("We protect your rights with two steps: (1) copyright the software, and (2) offer you this license which gives you legal permission to copy, distribute and/or modify the software.\n\n");
 	printf("Also, for each author’s protection and ours, we want to make certain that everyone understands that there is no warranty for this free software. If the software is modified by someone else and passed on, we want its recipients to know that what they have is not the original, so that any problems introduced by others will not reflect on the original authors’ reputations.\n\n");
 	printf("Finally, any free program is threatened constantly by software patents. We wish to avoid the danger that redistributors of a free program will individually obtain patent licenses, in effect making the program proprietary. To prevent this, we have made it clear that any patent must be licensed for everyone’s free use or not licensed at all.\n\n");
-	printf("The precise terms and conditions for copying, distribution and modification follow.\n\n");
+	printf("The precise terms and conditions for copying, distribution and modification follow.\a\n\n");
 	system("pause");  // 暫停程式運行
-	printf("TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION\n\n");
+	printf("\nTERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION\n\n");
 	printf("0. This License applies to any program or other work which contains a notice placed by the copyright holder saying it may be distributed under the terms of this General Public License. The “Program”, below, refers to any such program or work, and a “work based on the Program” means either the Program or any derivative work under copyright law: that is to say, a work containing the Program or a portion of it, either verbatim or with modifications and/or translated into another language. (Hereinafter, translation is included without limitation in the term “modification”.) Each licensee is addressed as “you”.\n\n");
 	printf("Activities other than copying, distribution and modification are not covered by this License; they are outside its scope. The act of running the Program is not restricted, and the output from the Program is covered only if its contents constitute a work based on the Program (independent of having been made by running the Program). Whether that is true depends on what the Program does.\n\n");
 	printf("1. You may copy and distribute verbatim copies of the Program’s source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice and disclaimer of warranty; keep intact all the notices that refer to this License and to the absence of any warranty; and give any other recipients of the Program a copy of this License along with the Program.\n\n");
@@ -499,9 +505,9 @@ void en_license()
 	printf("	c) If the modified program normally reads commands interactively when run, you must cause it, when started running for such interactive use in the most ordinary way, to print or display an announcement including an appropriate copyright notice and a notice that there is no warranty (or else, saying that you provide a warranty) and that users may redistribute the program under these conditions, and telling the user how to view a copy of this License. (Exception: if the Program itself is interactive but does not normally print such an announcement, your work based on the Program is not required to print an announcement.)\n\n");
 	printf("These requirements apply to the modified work as a whole. If identifiable sections of that work are not derived from the Program, and can be reasonably considered independent and separate works in themselves, then this License, and its terms, do not apply to those sections when you distribute them as separate works. But when you distribute the same sections as part of a whole which is a work based on the Program, the distribution of the whole must be on the terms of this License, whose permissions for other licensees extend to the entire whole, and thus to each and every part regardless of who wrote it.\n\n");
 	printf("Thus, it is not the intent of this section to claim rights or contest your rights to work written entirely by you; rather, the intent is to exercise the right to control the distribution of derivative or collective works based on the Program.\n\n");
-	printf("In addition, mere aggregation of another work not based on the Program with the Program (or with a work based on the Program) on a volume of a storage or distribution medium does not bring the other work under the scope of this License.\n\n");
+	printf("In addition, mere aggregation of another work not based on the Program with the Program (or with a work based on the Program) on a volume of a storage or distribution medium does not bring the other work under the scope of this License.\a\n\n");
 	system("pause");  // 暫停程式運行
-	printf("3. You may copy and distribute the Program (or a work based on it, under Section 2) in object code or executable form under the terms of Sections 1 and 2 above provided that you also do one of the following:\n\n");
+	printf("\n3. You may copy and distribute the Program (or a work based on it, under Section 2) in object code or executable form under the terms of Sections 1 and 2 above provided that you also do one of the following:\n\n");
 	printf("	a) Accompany it with the complete corresponding machine-readable source code, which must be distributed under the terms of Sections 1 and 2 above on a medium customarily used for software interchange; or,\n\n");
 	printf("	b) Accompany it with a written offer, valid for at least three years, to give any third party, for a charge no more than your cost of physically performing source distribution, a complete machine-readable copy of the corresponding source code, to be distributed under the terms of Sections 1 and 2 above on a medium customarily used for software interchange; or,\n\n");
 	printf("	c) Accompany it with the information you received as to the offer to distribute corresponding source code. (This alternative is allowed only for noncommercial distribution and only if you received the program in object code or executable form with such an offer, in accord with Subsection b above.)\n\n");
@@ -509,9 +515,9 @@ void en_license()
 	printf("If distribution of executable or object code is made by offering access to copy from a designated place, then offering equivalent access to copy the source code from the same place counts as distribution of the source code, even though third parties are not compelled to copy the source along with the object code.\n\n");
 	printf("4. You may not copy, modify, sublicense, or distribute the Program except as expressly provided under this License. Any attempt otherwise to copy, modify, sublicense or distribute the Program is void, and will automatically terminate your rights under this License. However, parties who have received copies, or rights, from you under this License will not have their licenses terminated so long as such parties remain in full compliance.\n\n");
 	printf("5. You are not required to accept this License, since you have not signed it. However, nothing else grants you permission to modify or distribute the Program or its derivative works. These actions are prohibited by law if you do not accept this License. Therefore, by modifying or distributing the Program (or any work based on the Program), you indicate your acceptance of this License to do so, and all its terms and conditions for copying, distributing or modifying the Program or works based on it.\n\n");
-	printf("6. Each time you redistribute the Program (or any work based on the Program), the recipient automatically receives a license from the original licensor to copy, distribute or modify the Program subject to these terms and conditions. You may not impose any further restrictions on the recipients’ exercise of the rights granted herein. You are not responsible for enforcing compliance by third parties to this License.\n\n");
+	printf("6. Each time you redistribute the Program (or any work based on the Program), the recipient automatically receives a license from the original licensor to copy, distribute or modify the Program subject to these terms and conditions. You may not impose any further restrictions on the recipients’ exercise of the rights granted herein. You are not responsible for enforcing compliance by third parties to this License.\a\n\n");
 	system("pause");  // 暫停程式運行
-	printf("7. If, as a consequence of a court judgment or allegation of patent infringement or for any other reason (not limited to patent issues), conditions are imposed on you (whether by court order, agreement or otherwise) that contradict the conditions of this License, they do not excuse you from the conditions of this License. If you cannot distribute so as to satisfy simultaneously your obligations under this License and any other pertinent obligations, then as a consequence you may not distribute the Program at all. For example, if a patent license would not permit royalty-free redistribution of the Program by all those who receive copies directly or indirectly through you, then the only way you could satisfy both it and this License would be to refrain entirely from distribution of the Program.\n\n");
+	printf("\n7. If, as a consequence of a court judgment or allegation of patent infringement or for any other reason (not limited to patent issues), conditions are imposed on you (whether by court order, agreement or otherwise) that contradict the conditions of this License, they do not excuse you from the conditions of this License. If you cannot distribute so as to satisfy simultaneously your obligations under this License and any other pertinent obligations, then as a consequence you may not distribute the Program at all. For example, if a patent license would not permit royalty-free redistribution of the Program by all those who receive copies directly or indirectly through you, then the only way you could satisfy both it and this License would be to refrain entirely from distribution of the Program.\n\n");
 	printf("If any portion of this section is held invalid or unenforceable under any particular circumstance, the balance of the section is intended to apply and the section as a whole is intended to apply in other circumstances.\n\n");
 	printf("It is not the purpose of this section to induce you to infringe any patents or other property right claims or to contest validity of any such claims; this section has the sole purpose of protecting the integrity of the free software distribution system, which is implemented by public license practices. Many people have made generous contributions to the wide range of software distributed through that system in reliance on consistent application of that system; it is up to the author/donor to decide if he or she is willing to distribute software through any other system and a licensee cannot impose that choice.\n\n");
 	printf("This section is intended to make thoroughly clear what is believed to be a consequence of the rest of this License.\n\n");
@@ -522,11 +528,51 @@ void en_license()
 	printf("NO WARRANTY\n\n");
 	printf("11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM “AS IS” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.\n\n");
 	printf("12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.\n\n");
-	printf("END OF TERMS AND CONDITIONS\n\n");
+	printf("END OF TERMS AND CONDITIONS\a\n\n");
 	system("pause");  // 暫停程式運行
 }
 
 void zh_license()
 {
-
+	printf("\n譯者聲明\n");
+	printf("　　這是GNU通用公共授權合約的一份非官方中文翻譯，並非自由軟體基金會所發表，不適用於使用GNU通用公共授權合約發佈的軟體的法律聲明——只有GNU通用公共授權合約英文原版才具有法律效力。不過我們希望本翻譯能夠幫助中文讀者更好地理解GNU通用公共授權合約。 您可以僅根據http://www.gnu.org/licenses/translations.html中的條款發布此修改或未修改的翻譯。\n\n");
+	printf("引言\n");
+	printf("　　就多數軟體而言，授權合約被設計用於剝奪你分享和修改軟體的自由。相反，GNU通用公共授權合約力圖保障你分享和修改自由軟體的權利——確保自由軟體對其使用者來說是自由的。本GNU通用公共授權合約用於自由軟體基金會的大多數軟體（自由軟體基金會的有些軟體受GNU寬鬆通用公共授權合約保護），以及那些作者聲明使用此協定的軟體。你也可以將本協定用於你的程式。\n");
+	printf("　　所謂自由軟體，強調自由，而非免費。本GNU通用公共授權合約設計用於確保你享有分發自由軟體的自由（你可以為此服務收費），確保你可以在需要的時候獲得這些軟體的源碼，確保你可以修改這些軟體或者在新的自由軟體中複用其中某些片段，並且確保你在這方面享有知情權。\n");
+	printf("　　為保障你的權益，我們需要作一些限定：禁止任何人否認你的上述權利，或者要求你放棄它們。當你分發或修改這些軟體時，這種限定就變成你的義務。如果你分發這種程式的副本，無論收費還是免費，你必須給予與你同等的權利。你還要確保他們也能收到源碼並瞭解他們的權利。\n");
+	printf("　　我們通過兩步保障你的權益：其一，賦予軟體著作權；其二，通過本協議使你可以合法地複製、分發和修改該軟體。同時，為了保護每一位作者以及我們自己，我們向所有人指明如下一點：自由軟體並不提供品質擔保。如果軟體被修改並繼續傳播，我們希望接收者知道獲得的不是原版，後來引入的任何問題不應該影響原作者的聲譽。\n");
+	printf("　　最後，自由軟體還持續受到軟體專利的威脅。我們希望避免再發佈者以個人名義取得專利，即將程式據為己有。為防止此類情況發生，我們需要澄清：專利必須為保障每個人的自由使用而申請，否則不應該存在。\n");
+	printf("　　下文是關於複製、分發和修改的嚴謹描述和實施條件。\n\n");
+	printf("關於複製、分發和修改的術語和條件\n");
+	printf("　　〇、但凡版權持有人在他的程式或其他作品中聲明該作品可在GNU通用公共授權合約約束下發佈，本協議便對之適用。下文中所說的“程式”指任何程式或作品，而“程式的派生作品”指該程式或者版權法認定的派生作品，即全部或部分包含了該程式的作品，無論是原樣包含或做了修改，乃至翻譯成了其他語言（後文中“修改”涵蓋翻譯）。每個許可獲得者稱作“你”。\n");
+	printf("　　　　除複製、分發和修改外的行為超出了本協議的約束範圍。執行程式的行為並不受限，程式的輸出一般不在約束之內，除非其內容構成了本程式的派生作品（並非單純地作為本程式的運行結果），判別取決於此程式的具體用途。\n\n");
+	printf("　　一、只要你做到為每一個副本醒目而恰當地發佈版權與免責聲明，原封不動地保留本協議及免責聲明，並將本協議連同程式發予接收者，你可以通過任何媒介完整地複製和分發你收到的本程式的源碼。\n");
+	printf("　　　　你可以就傳輸副本的具體行為收費，也可以選擇提供品質擔保以換取收入。\n\n");
+	printf("　　二、你可以修改你的程式副本的任意部分，以構成本程式的派生作品，並在滿足上述條款及以下三點要求的前提下複製和分發該修改版：\n");
+	printf("　　　　a)你必須在你修改了的檔中醒目地聲明你的修改及標注修改日期。\n");
+	printf("　　　　b)你必須使你分發或發佈的作品，部分或全部包含本程式或其派生作品，允許協力廠商在本協定約束下使用，並不得就授權收費。\n");
+	printf("　　　　c)如果修改後的程式通常在運行時通過對話模式獲取命令，你應該讓它進入交互模式時顯示簡要的版權聲明和免責聲明（抑或者你的品質擔保聲明），以及告訴使用者可以在本協議約束下再發佈該程式並提供查閱本協定的途徑。（例外：如果本程式有互動式執行卻通常不顯示任何聲明，則對你的派生作品也不作此要求。）\n");
+	printf("　　　　上述要求對修改後的作品整體有效。如果該作品中某些可劃定的部分並非派生自本程式，並可以被合理地看作是從中分離的獨立作品，則當你將它們分開發佈時，這種獨立部分可以不受本協定約束。但是，在你將這些部分和你修改後的作品一起發佈時，整個套件將受本協定約束，本協定對其他許可獲得者的授權將延伸至整個作品，即套件的每一部分，不管是誰寫的。\a\n\n");
+	system("pause");  // 暫停程式運行
+	printf("\n　　三、你可以在上述條款約束下以目的碼或可執行檔的形式複製和分發本程式（或條款二所說的派生作品），不過你還要滿足以下要求之一：\n");
+	printf("　　　　a)附上相應的源碼。源碼要求完整且機器可讀，並在條款一、二的約束下通過常用的軟體交換媒介分發。\n");
+	printf("　　　　b)附上至少三年有效的書面報價表以供協力廠商付費獲取相應的源碼。源碼要求完整且機器可讀，並在條款一、二的約束下通過常用的軟體交換媒介分發，費用不得超過實際的分發成本。\n");
+	printf("　　　　c)附上你所收到的獲取源碼途徑的資訊。（該選擇只適用於非商業分發,並且你只收到目的碼或可執行檔以及滿足b項要求的報價單的情況下。）\n");
+	printf("　　　　作品的源碼指其可修改的首選形式。對可執行的作品而言，完整的源碼指其包含的所有模組的源碼、相關介面定義文檔以及編譯和安裝所需腳本。然而，有一種例外情況，分發的源碼不必包含那些通常會隨會目標運行環境的作業系統的主要部件（編譯器、內核等）發佈的內容（以源碼或二進位形式），除非這些部件自身是本程式的一部分。\n");
+	printf("　　　　如果以指定特定複製地點的形式分發可執行檔或目的碼，則在同一地點提供對等源碼複製途徑也算一種源碼分發手段，即便不強求協力廠商在複製目的碼的同時複製源碼。\n\n");
+	printf("　　四、在本協議授權之外，你不能複製、修改、再授權或分發本程式。任何用其他方法複製、修改、再授權或分發本程式的企圖都是無效的，並使你從本協議獲得的權利自動終止。然而從你那按本協議獲得副本和許可的人，只要繼續遵守協議，他們獲得的許可並不會終止。\n\n");
+	printf("　　五、你沒有在此協議上簽字，也不是非要接受它不可。但是，此外沒人可授權你去修改或分發本程式或其派生作品。此種行為為法律所不容，除非你接受本協議。因此，修改或發佈本程式（或本程式的任何派生作品），就表明你已經接受本協議，即接受它的所有關於複製、分發和修改本程式及其派生的條款。\n\n");
+	printf("　　六、每當你再發佈本程式（或本程式的任何派生作品），接收者自動從原始權利人獲得本許可，以複製、分發和修改本程式。你不可以對他們獲得的權利加以進一步的限制，你也沒有要求協力廠商遵守該協議的義務。\n\n");
+	printf("　　七、如果因為法庭裁決或專利侵權指控或其他原因（不限於專利事宜），你面臨與本協議條款衝突的條件（來自於法庭要求、協議或其他），那也不能成為你違背本協議的理由。倘若你不能在發佈本程式時同時滿足本協議和其他檔的要求，你就不能發佈本程式。例如某專利授權不允許通過你直接或間接地獲得本程式的人在不付授權費的前提下再發佈本程式，唯一能同時滿足它和本協議要求的做法便是不發佈本程式。\n");
+	printf("　　　　如果本條款在特定環境下無效或無法實施，本條款的其他部分仍適用且本條款整體在其他環境下仍適用。\n");
+	printf("　　　　本條款的目的不在於誘使你去侵犯專利或其他產權要求，抑或者對之抗辯。本條款的根本目的是保護自由軟體發佈系統的完整性，而這要通過應用公共許可證實現。借助同樣出自該系統的應用程式，許多人已經對在該系統上發佈的軟體作出了廣泛而慷慨的貢獻。作者/捐贈人有權確定是否通過其他管道發佈軟體，被授權人不得干預其選擇。\n");
+	printf("　　　　本條款旨在徹底闡明其餘條款所帶來的當然結果。\n\n");
+	printf("　　八、如果由於專利或受版權保護的介面的問題，分發或使用本程式在某些國家受到限制，原始版權持有人在其程式中使用本協定時可以附加明確的區域分發限制以排除那些國家，以支援此外地區的分發。在此情況下，這種限制條款將納入協議之中。\n\n");
+	printf("　　九、自由軟體聯盟可能會不定時發佈GNU通用公共授權合約的修訂版或新版。新版將秉承當前版本的精神，但對問題或事項的描述細節不盡相同。\n");
+	printf("　　　　每一版都會有不同的版本號，如果本程式指定其使用的協議版本以及“任何更新的版本”，你可以選擇遵守該版本或者任何更新的版本的條款。如果本程式沒有指定協議版本，你可以選用自由軟體聯盟發佈的任意版本。\n\n");
+	printf("　　十、如果你希望將本程式的某部分併入採取不同發佈條件的自由軟體中，應書面請求其作者的許可。對於自由軟體聯盟持有版權的軟體，還應向聯盟提出書面請求，我們有時會作例外處理。在處理這種事情時我們秉承兩大宗旨：保持所有自由軟體派生作品的自由屬性，以及在整體上促進軟體的共用和複用。\n\n");
+	printf("不提供品質擔保\n");
+	printf("　　十一、本程式為免費授權，故在適用法律範圍內不提供品質擔保。除非另作書面聲明，版權持有人及其他程式提供者“概”不提供任何顯式或隱式的品質擔保，品質擔保所指包括而不僅限於有經濟價值和適合特定用途的保證。全部風險，如程式的品質和性能問題，皆由你承擔。若程式出現缺陷，你將承擔所有必要的修復和更正服務的費用。\n\n");
+	printf("　　十二、除非適用法律或書面協議要求，任何版權持有人或本程式按本協議可能存在的協力廠商修改和再發佈者，都不對你的損失負有責任，包括由於使用或者不能使用本程式造成的任何一般的、特殊的、偶發的或重大的損失（包括而不僅限於資料丟失、資料失真、你或協力廠商的後續損失、其他程式無法與本程式協同運作），即使那些人聲稱會對此負責。\a\n\n");
+	system("pause");  // 暫停程式運行
 }
