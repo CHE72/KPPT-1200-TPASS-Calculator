@@ -33,4 +33,4 @@ We expect to add copyright announcements, author and studio introductions in V1.
 We expect to add an English version of the program in V2.0X.
 
 ### KPPT 1200 TPASS Calculator Ver1.2X , Copyright (C) 2023-present CHE_72 ZStudio.
-### 「基北北桃1200都會通定期票」計算程式 Ver1.2X , Copyright (C) 2023-present CHE_72 ZStudio
+#### 「基北北桃1200都會通定期票」計算程式 Ver1.2X , Copyright (C) 2023-present CHE_72 ZStudio
