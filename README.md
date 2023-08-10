@@ -34,4 +34,4 @@
 我們預計會在 V2.0X 時添加英文版本程式。
 
 ### 「基北北桃1200都會通定期票」計算程式 Ver1.2X , Copyright (C) 2023-present CHE_72 ZStudio
-### KPPT 1200 TPASS Calculator Ver1.2X , Copyright (C) 2023-present CHE_72 ZStudio.
+#### KPPT 1200 TPASS Calculator Ver1.2X , Copyright (C) 2023-present CHE_72 ZStudio.
