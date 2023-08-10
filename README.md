@@ -1,6 +1,7 @@
 # 「基北北桃1200都會通定期票計算程式 」（使用 C 語言）
 ## KPPT 1200 TPASS Calculator ( C Language ) Made by CHE_72 ZStudio
 ### English Version Readme is here : [https://github.com/CHE72/KPPT-1200-TPASS-Calculator-C/blob/V1.2/EN_README.md]
+### 
 
 ## 程式介紹 (Description)
 歡迎使用由 CHE_72 ZStudio 使用 C 語言製作而成的「基北北桃1200都會通定期票計算程式 」，本程式可以協助您判斷是否購買由 中華民國政府（臺澎金馬） 於 民國112年 推出的「TPASS行政院通勤月票（基北北桃）」，協助您省下在 基北北桃 區域通勤的花費。
@@ -31,3 +32,6 @@
 我們預計會在 V1.2X 時增加版權宣告、作者與工作室介紹，並對「身分輸入平臺」的3、4選項進行簡短的未來功能介紹。   
 我們預計會在 V1.2X 時使用 .h標頭檔 .c檔案 的方式將程式以模組化的方式重新設計，提高易讀性與可維護性。
 我們預計會在 V2.0X 時添加英文版本程式。
+
+### 「基北北桃1200都會通定期票」計算程式 Ver1.2X , Copyright (C) 2023-present CHE_72 ZStudio
+### KPPT 1200 TPASS Calculator Ver1.2X , Copyright (C) 2023-present CHE_72 ZStudio.
