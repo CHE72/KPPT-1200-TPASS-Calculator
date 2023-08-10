@@ -3,7 +3,7 @@
 ### 中文版本 Readme 在這裡 : [https://github.com/CHE72/KPPT-1200-TPASS-Calculator-C/blob/V1.2/README.md]
 
 ## Description（程式介紹）
-Welcome to use the "KPPT 1200 TPASS Calculator" made by CHE_72 ZStudio in C language. This program can help you judge whether to buy TPASS ( also called Megacity Pass ), which was launched by the government of the Republic of China (Taiwan, Penghu, Kinmen, Matsu) in 112 years of R.O.C. Both TPASS(KPPT) and our awesome program can helps you save commuting costs in Keelung, Taipei, New Taipei, Taoyuan.
+Welcome to use the "KPPT 1200 TPASS Calculator" made by CHE_72 ZStudio in C language. This program can help you judge whether to buy TPASS ( also called Megacity Pass ), which was launched by the government of the Republic of China (Taiwan, Penghu, Kinmen, Matsu) in 112 years of R.O.C. Both TPASS(KPPT) and our awesome program can helps you save commuting costs in Keelung, Taipei, New Taipei and Taoyuan.
 >  All texts are translated using Google Translate, sorry for any confusion and inconvenience.
 
 ## Environment Requirement（環境需求）
