@@ -5,7 +5,6 @@
 
 ## 程式介紹 (Description)
 歡迎使用由 CHE_72 ZStudio 使用 C 語言製作而成的「基北北桃1200都會通定期票計算程式 」，本程式可以協助您判斷是否購買由 中華民國政府（臺澎金馬） 於 民國112年 推出的「TPASS行政院通勤月票（基北北桃）」，協助您省下在 基北北桃 區域通勤的花費。
->  本說明文件所有英文內容皆由 Google 翻譯後修改調整而來，造成任何困惑與不便，敬請見諒。
 
 ## 環境需求 (Environment Requirement)  
 最新版本的 Microsoft Visual C++ 可轉散發套件 (X64 架構)：[https://aka.ms/vs/17/release/vc_redist.x64.exe]  
