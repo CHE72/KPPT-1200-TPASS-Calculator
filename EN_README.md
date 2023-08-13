@@ -32,7 +32,7 @@ Bugs / Errors: In the "Identity Input Platform", since the content has not been 
 We expect to add copyright announcements, author and studio introductions in V1.2X, and give a brief introduction to the future functions of options 3 and 4 of the "Identity Input Platform".  
 We expect to use .h header files and .c source code files in V1.2X to redesign the program in a modular way to improve the readability and maintainability of the program source code.  
 We expect to add an English option of the program in V1.2X to facilitate the calculation and use of foreigners in the Taipei Megacity, public transportation and commuting.  
-We expect to add the function of exporting results as text files (.txt) in V3.0X, so that user's input results and program's calculation output results can be saved and recorded, which makes it easier for user to use.  
+We expect to add the function of exporting results as text files (.txt) in V2.0X, so that user's input results and program's calculation output results can be saved and recorded, which makes it easier for user to use.  
 
 ### KPPT 1200 TPASS Calculator Ver1.2X , Copyright (C) 2023-present CHE_72 ZStudio.
 #### 「基北北桃1200都會通定期票」計算程式 Ver1.2X , Copyright (C) 2023-present CHE_72 ZStudio
