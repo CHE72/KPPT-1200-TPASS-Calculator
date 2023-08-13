@@ -19,7 +19,7 @@ Step 5: Continue to follow the program prompts and input the content of other tr
 Step 6: Back to the function selection, follow the program prompt, and input "0" to get the final calculation result.  
 > Note: There are 2 little easter eggs hidden in this program waiting for you to discover.  
 
-## New Features, Updates, Improvements, Fixed Bugs in V1.2X（Ｖ1.2X 新增 更新 改進 修復）
+## New Features, Updates, Improvements, Fixed Bugs in V1.2X（V1.2X 新增 更新 改進 修復）
 Added:  
 Improved:  
 Fixed:  
