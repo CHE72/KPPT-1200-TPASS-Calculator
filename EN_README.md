@@ -11,7 +11,7 @@ The latest version of the Microsoft Visual C++ Redistributable Distribution (X64
 The latest version of the Windows Terminal : [https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-us&gl=us]  
 
 ## Instructions（使用說明）
-Step 1: Follow the program prompts and enter your identity (1: ordinary card, 2: student card).  
+Step 1: Follow the program prompts and enter your identity (1: Adult Card, 2: Student Card).  
 Step 2: Follow the program prompts and select the function (1: Taipei Metro (MRT), 2: New Taipei Metro (MRT) & LRT, 3:Taipei Metropolitan Area Buses, 4: Taiwan Railways (TRA), 5: Taoyuan Metro (MRT), 6: Taoyuan / Keelung Buses, 7: Intercity Buses).  
 Step 3: Follow the program prompts, enter the amount and the corresponding number of times.  
 Step 4: If the input of this function is completed, you can enter "0 (which means 0 times or 0 dollars) " to return to the function selection.  
