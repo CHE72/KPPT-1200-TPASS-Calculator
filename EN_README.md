@@ -7,6 +7,7 @@ Welcome to use the "KPPT 1200 TPASS Calculator" made by CHE_72 ZStudio in C lang
 >  All texts are translated using Google Translate, sorry for any confusion and inconvenience.
 
 ## Environment Requirement（環境需求）
+Microsoft Windows 10 or later version OS
 The latest version of the Microsoft Visual C++ Redistributable Distribution (X64 architecture) : [https://aka.ms/vs/17/release/vc_redist.x64.exe]  
 The latest version of the Windows Terminal : [https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-us&gl=us]  
 
