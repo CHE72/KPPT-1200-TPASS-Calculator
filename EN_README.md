@@ -27,7 +27,8 @@ Fixed:
 
 
 ## Known Issues in V1.2X（V1.2X 已知問題）
-Bugs / Errors: In the "Identity Input Platform", since the content has not been fully constructed, options 3, 4, 5, and 6 have no effect, and a message will be output and the program will exit directly.  
+Errors: In the "Identity Input Platform", since the content has not been fully constructed, options 3 and 4 have no effect, and a message will be output and the program will exit directly.  
+Bugs: When users enter the "Taipei MRT" ride information multiple times, the discount will be calculated with an incorrect amount due to the fact that the original input data is not saved, resulting in an incorrect final result.  
 
 ## Future Features（未來功能）
 We expect to add copyright announcements, author and studio introductions in V1.2X.  
