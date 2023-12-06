@@ -57,6 +57,7 @@ Fixed: Frequent Passenger Program discount calculation error in "Taipei Metro (M
 
 ## 已知問題 (Known Issues)
 錯誤：在「身分輸入平臺」，由於內容尚未建置完全，因此3、4、5、6選項都沒有作用，會輸出訊息並直接退出程序。  
+錯誤：使用者多次輸入「臺北捷運」搭乘資料時，由於未儲存原始輸入資料，會導致折扣以錯誤的金額計算，造成最終結果錯誤。  
 
 Bugs / Errors: In the "Identity Input Platform", since the content has not been fully constructed, options 3, 4, 5, and 6 have no effect, and a message will be output and the program will exit directly.  
 
